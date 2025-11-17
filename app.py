@@ -17,7 +17,7 @@ def generate_random_cvv():
 
 def get_server_uri():
     #base_url = request.url_root.rstrip('/')
-    base_url = "http://localhost:5001"
+    base_url = "https://liftscript.onrender.com"
     return base_url
 
 def get_all_details_by_count(data, count=False, number=False):
